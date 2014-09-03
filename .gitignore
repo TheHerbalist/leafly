@@ -1,0 +1,3 @@
+node_modules
+spec/config.js
+**.sw*

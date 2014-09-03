@@ -1,0 +1,29 @@
+{
+  "name": "leafly",
+  "version": "0.1.0",
+  "description": "Leafly API Wrapper",
+  "main": "leafly.js",
+  "scripts": {
+    "test": "node node_modules/jasmine-node/lib/jasmine-node/cli.js spec --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheHerbalist/leafly.git"
+  },
+  "keywords": [
+    "Leafly"
+  ],
+  "author": "Danny Grove <danny@drgrovellc.com>",
+  "license": "AGPL",
+  "bugs": {
+    "url": "https://github.com/TheHerbalist/leafly/issues"
+  },
+  "homepage": "https://github.com/TheHerbalist/leafly",
+  "dependencies": {
+    "node-curl": "^0.3.1",
+    "q": "^1.0.1"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
