@@ -9,7 +9,6 @@ beforeEach(function(){
 describe('Leafly Strain Details', function(){
   it('Should return the Strain Details for Blue Dream', function(done){
     leafly.strain("Blue Dream").then(function(res){
-      console.log('Response', res)
       expect(res.name).toBe("Blue Dream")
       done()
     })
